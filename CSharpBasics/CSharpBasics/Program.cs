@@ -26,9 +26,9 @@ namespace CSharpBasics
             {
                 Console.WriteLine($"Appliance is in use");
             }
-            public void CleanAppliance()
+            public void Repair()
             {
-                Console.WriteLine($"Clean applience");
+                Console.WriteLine($"Applience is repaired");
             }
         }
 
@@ -44,6 +44,7 @@ namespace CSharpBasics
             {
                 Console.WriteLine("Dishwasher is washing dishes");
             }
+
         }
         
         
