@@ -9,7 +9,16 @@ namespace CSharpBasics
     {
         static void Main(string[] args)
         {
-            
+            Dishwasher dishwasher = new Dishwasher("Irina", "Miele");
+            dishwasher.InstallIntoRoom("Kitchen");
+            dishwasher.Use();
+            dishwasher.Wash();
+            dishwasher.Wash(4);
+            Stove stove = new Stove("Irina", "Arielli", 250);
+            stove.Cook("Fish", 200, 40);
+            stove.Cook("Patatoes", 300, 50);
+            stove.Repair();
+            stove.SellApplience("Nikolay");
         }
 
         public class Appliance
@@ -35,10 +44,12 @@ namespace CSharpBasics
             public void InstallIntoRoom(string room)
             {
                 Room = room;
+                Console.WriteLine($"Dishwasher is installed in the {Room}");
             }
             public void SellApplience(string buyer)
             {
                 Owner = buyer;
+                Console.WriteLine($"Dishwasher is sold to {Owner}");
             }
         }
         //Inheritance
@@ -77,11 +88,9 @@ namespace CSharpBasics
 
         public class Stove : Appliance
         {
-            public bool IsOnGas { get; }
             public int MaxTemperature { get; }
-            public Stove(string owner, string brand, bool isOnGas, int maxTemperature) : base(owner, brand)
+            public Stove(string owner, string brand, int maxTemperature) : base(owner, brand)
             {
-                IsOnGas = IsOnGas;
                 MaxTemperature = maxTemperature;
             }
             public void Cook(string food, uint temperature, uint cookingTime)

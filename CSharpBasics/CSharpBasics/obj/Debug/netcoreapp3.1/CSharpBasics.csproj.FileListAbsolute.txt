@@ -1,0 +1,14 @@
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.exe
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.deps.json
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.json
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.dev.json
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.dll
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.pdb
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csproj.AssemblyReference.cache
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfoInputs.cache
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfo.cs
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csproj.CoreCompileInputs.cache
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.dll
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.pdb
+E:\programming\internship\CSharpBasics\CSharpBasics\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.genruntimeconfig.cache
