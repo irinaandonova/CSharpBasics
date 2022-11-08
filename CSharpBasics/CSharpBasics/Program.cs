@@ -31,7 +31,7 @@ namespace CSharpBasics
                 Console.WriteLine($"Applience is repaired");
             }
         }
-
+        //Inheritance
         public class Dishwasher : Appliance
         {
             public Dishwasher(string owner) : base(owner)
@@ -39,10 +39,27 @@ namespace CSharpBasics
             }
 
             public int capasity { get; set; }
-            
+            //Overriding
             public override void Use()
             {
                 Console.WriteLine("Dishwasher is washing dishes");
+            }
+            //Overloading
+            public void Wash()
+            {
+                Console.WriteLine("Dishwasher is using self cleaning program");
+            }
+            public void Wash(uint dishes)
+            {
+                if(dishes == 0)
+                    {
+                    Console.WriteLine("Dishwasher is whaing a dish");
+                    }
+                else
+                {
+                    Console.WriteLine($"Dishwasher is washing {dishes}");
+
+                }
             }
 
         }
