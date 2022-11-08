@@ -34,15 +34,21 @@ namespace CSharpBasics
             {
                 Room = room;
             }
+            public void SellApplience(string buyer)
+            {
+                Owner = buyer;
+            }
         }
         //Inheritance
         public class Dishwasher : Appliance
         {
-            public Dishwasher(string owner) : base(owner)
+            public Dishwasher(string owner, string brand) : base(owner)
             {
+                Brand = brand;
             }
 
-            public int capasity { get; set; }
+            public int Capasity { get; }
+            public string Brand { get; }
             //Overriding
             public override void Use()
             {
@@ -65,10 +71,6 @@ namespace CSharpBasics
 
                 }
             }
-
-        }
-        
-        
-
+        }      
     }
 }
