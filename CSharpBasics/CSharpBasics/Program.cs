@@ -16,10 +16,11 @@ namespace CSharpBasics
             public string Color { get; set; }
             public string Room { get; set; }
             public string Owner;
-
-            public Appliance(string owner)
+            public string Brand;
+            public Appliance(string owner, string brand)
             {
                 Owner = owner;
+                Brand = brand;
             }
 
             public virtual void Use()
@@ -42,13 +43,13 @@ namespace CSharpBasics
         //Inheritance
         public class Dishwasher : Appliance
         {
-            public Dishwasher(string owner, string brand) : base(owner)
+            public Dishwasher(string owner, string brand) : base(owner, brand)
             {
                 Brand = brand;
             }
 
             public int Capasity { get; }
-            public string Brand { get; }
+            
             //Overriding
             public override void Use()
             {
@@ -71,6 +72,8 @@ namespace CSharpBasics
 
                 }
             }
-        }      
+        }
+
+        
     }
 }
