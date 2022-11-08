@@ -65,7 +65,7 @@ namespace CSharpBasics
             {
                 if(dishes == 0)
                     {
-                    Console.WriteLine("Dishwasher is whaing a dish");
+                    Console.WriteLine("Dishwasher is washing a dish");
                     }
                 else
                 {
