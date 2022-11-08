@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Buffers;
 using System.Drawing;
+using System.Net;
 
 namespace CSharpBasics
 {
@@ -74,6 +75,27 @@ namespace CSharpBasics
             }
         }
 
-        
+        public class Stove : Appliance
+        {
+            public bool IsOnGas { get; }
+            public int MaxTemperature { get; }
+            public Stove(string owner, string brand, bool isOnGas, int maxTemperature) : base(owner, brand)
+            {
+                IsOnGas = IsOnGas;
+                MaxTemperature = maxTemperature;
+            }
+            public void Cook(string food, uint temperature, uint cookingTime)
+            {
+                if(temperature > MaxTemperature)
+                {
+                    Console.WriteLine("Temperature is greater than max temperature for this stove!");
+                }
+                else
+                {
+                    Console.WriteLine($"{food} is cooking on {temperature} °C for {cookingTime}");
+                }
+            }           
+
+        }
     }
 }
