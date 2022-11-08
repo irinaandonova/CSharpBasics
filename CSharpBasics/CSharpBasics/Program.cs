@@ -6,7 +6,22 @@ namespace CSharpBasics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
+
+        public class Appliances
+        {
+            string Color;
+
+            public void Use()
+            {
+                Console.WriteLine($"Appliance is in use");
+            }
+            public void CleanAppliance()
+            {
+                Console.WriteLine($"Clean applience");
+            }
+        }
+        
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programming\\internship\\C-Basics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj": {}
+    "E:\\programming\\internship\\CSharpBasics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj": {}
   },
   "projects": {
-    "E:\\programming\\internship\\C-Basics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj": {
+    "E:\\programming\\internship\\CSharpBasics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programming\\internship\\C-Basics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
+        "projectUniqueName": "E:\\programming\\internship\\CSharpBasics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
         "projectName": "CSharpBasics",
-        "projectPath": "E:\\programming\\internship\\C-Basics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
+        "projectPath": "E:\\programming\\internship\\CSharpBasics\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
         "packagesPath": "C:\\Users\\Irina\\.nuget\\packages\\",
-        "outputPath": "E:\\programming\\internship\\C-Basics\\CSharpBasics\\CSharpBasics\\obj\\",
+        "outputPath": "E:\\programming\\internship\\CSharpBasics\\CSharpBasics\\CSharpBasics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
