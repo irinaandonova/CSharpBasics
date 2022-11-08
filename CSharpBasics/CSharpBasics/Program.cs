@@ -9,9 +9,16 @@ namespace CSharpBasics
             
         }
 
-        public class Appliances
+        public class Appliance
         {
             string Color;
+            string Room;
+
+            public Appliance(string color, string room)
+            {
+                Color = color;
+                Room = room;
+            }
 
             public void Use()
             {
@@ -22,6 +29,8 @@ namespace CSharpBasics
                 Console.WriteLine($"Clean applience");
             }
         }
+
         
+
     }
 }
