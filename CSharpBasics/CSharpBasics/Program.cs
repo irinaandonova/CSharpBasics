@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Buffers;
+using System.Drawing;
 
 namespace CSharpBasics
 {
@@ -11,16 +13,16 @@ namespace CSharpBasics
 
         public class Appliance
         {
-            string Color;
-            string Room;
+            public string Color { get; set; }
+            public string Room { get; set; }
+            public string Owner;
 
-            public Appliance(string color, string room)
+            public Appliance(string owner)
             {
-                Color = color;
-                Room = room;
+                Owner = owner;
             }
 
-            public void Use()
+        public virtual void Use()
             {
                 Console.WriteLine($"Appliance is in use");
             }
@@ -30,6 +32,20 @@ namespace CSharpBasics
             }
         }
 
+        public class Dishwasher : Appliance
+        {
+            public Dishwasher(string owner) : base(owner)
+            {
+            }
+
+            public int capasity { get; set; }
+            
+            public override void Use()
+            {
+                Console.WriteLine("Dishwasher is washing dishes");
+            }
+        }
+        
         
 
     }
