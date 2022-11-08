@@ -22,13 +22,17 @@ namespace CSharpBasics
                 Owner = owner;
             }
 
-        public virtual void Use()
+            public virtual void Use()
             {
                 Console.WriteLine($"Appliance is in use");
             }
             public void Repair()
             {
                 Console.WriteLine($"Applience is repaired");
+            }
+            public void InstallIntoRoom(string room)
+            {
+                Room = room;
             }
         }
         //Inheritance
